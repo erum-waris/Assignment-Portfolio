@@ -4,7 +4,7 @@ import React from "react";
 function Education() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center sm:text-center w-full  rounded-md px-2 py-2  mb-8  transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(170,81,197)] hover:scale-105">
+      <div className="flex flex-col justify-center items-center sm:text-center w-full  rounded-md px-2 py-2  mb-8  transition-all duration-1000 ease-in-out hover:scale-105">
         <span className="text-4xl  sm:mt-8 md:mt-10 md:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600  via-pink-500 to-purple-500 mb-7 transition-shadow duration-300 ease-in hover:shadow-[0_0_8px_8px_rgba(182,27,79)] rounded-full border-4 border-blue-500 animate-superman p-6 mt-5">
           EDUCATION
         </span>
