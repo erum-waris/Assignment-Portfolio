@@ -6,7 +6,7 @@ import ImageSlider from "@/app/components/Image-slider";
 
 const SkillsSection: React.FC = () => {
   return (
-    <section>
+    <section id="skills">
       <div className="container mx-auto py-2 px-4 ">
         <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-12 text-white">
           My{" "}
@@ -20,7 +20,7 @@ const SkillsSection: React.FC = () => {
           </div>
           <div className="transition-all duration-1000 ease-in-out mb-8 md:p-2 hover:shadow-[0_0_8px_6px_rgb(204,45,143)] hover:scale-105 border-4 border-double border-pink-500">
             <SkillsBar />
-           < Image src="/images/developer_logo.jpg" alt="developer logo" width={500} height={500} 
+           < Image src="/images/developer_logo_3.png" alt="developer logo" width={500} height={500} 
            className="hidden md:flex md:pl-10 rounded-lg"/>
           </div>
         </div>

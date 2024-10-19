@@ -15,11 +15,11 @@ const images = [
     { path: "/images/ts.png", name: "TypeScript Logo "},
     { path: "/images/bootstrape.jpg", name: "Bootstrape Logo "},
     { path: "/images/js.png", name: "JavaScript Logo "},
-    { path: "/images/tail.png", name: "Tailwind Logo"},
-    { path: "/images/next-js.png", name: "Nextjs Logo "},
+    { path: "/images/tailwind.png", name: "Tailwind Logo"},
+    { path: "/images/nextjs.png", name: "Nextjs Logo "},
   { path: "/images/html.png", name: "HTML Logo"},
-    { path: "/images/css.png", name: "CSS Logo"},
-    { path: "/images/react-js.png", name: "CSS Logo"},
+    { path: "/images/css.jpg", name: "CSS Logo"},
+    { path: "/images/react.png", name: "CSS Logo"},
 ];
 
  const ImageSlider: React.FC = () => {

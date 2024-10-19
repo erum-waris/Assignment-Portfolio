@@ -25,11 +25,12 @@ const NavbarSec = () => {
       <ul
          tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="#projects">Projects</Link></li>
-        <li><Link href="#about">About</Link></li>
-        <li><Link href="#contact">Contact</Link></li>
-        <li><Link href="#skills">Skills</Link></li>
+         <li><Link href="#projects" scroll={true}>Projects</Link></li>
+    <li><Link href="#about" scroll={true}>About</Link></li>
+    <li><Link href="#contact" scroll={true}>Contact</Link></li>
+    <li><Link href="#skills" scroll={true}>Skills</Link></li>
+        
+      
       </ul>
     </div>
   </div>

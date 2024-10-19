@@ -33,7 +33,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center h-screen relative">
+    <section className="flex flex-col items-center h-screen relative" id='contact'>
       {showPopup && (
         <div className="absolute top-10 md:top-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white py-2 px-4 rounded-md shadow-md">
          Congrates Your message has been sent!
@@ -100,7 +100,7 @@ const ContactForm: React.FC = () => {
       <Link href="https://www.linkedin.com/in/erum-waris-16008b282/"> <Image src="/images/linkedinicon.png" alt="email" width={80} height={80}
       className="mt-10 bg-blue-100 rounded-lg "/></Link>
     </div>
-    </div> 
+    </section> 
   );
 };
 

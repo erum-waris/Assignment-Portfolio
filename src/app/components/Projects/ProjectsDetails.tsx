@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { ProjectCard } from "./ProjectCards";
+import { section } from "framer-motion/client";
 
 const projects = [
   {
@@ -70,6 +71,7 @@ const projects = [
  
 const Project: React.FC = () => {
   return (
+    <section id="projects">
     <div className="container mx-auto mb-8 p-8">
       <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-24 text-white">
         My{" "}
@@ -89,6 +91,7 @@ const Project: React.FC = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 }; 
 

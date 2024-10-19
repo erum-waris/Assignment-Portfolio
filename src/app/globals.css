@@ -9,3 +9,6 @@
 body{
   background-color: linear-gradient-to-r from-cyan-500 bg-pink-300 to-blue-500 text-white ;
 }
+html {
+  scroll-behavior: smooth;
+}

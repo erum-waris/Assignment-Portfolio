@@ -3,15 +3,14 @@
 
 import Image from 'next/image';
 
-import Button from './Button';
 
 const AboutMe = () => {
   return (
-    <>
-    <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 lg:p-16 space-y-8 lg:space-y-0 lg:space-x-12 md:max-h-screen">
+    <section id='about'>
+    <div className="flex flex-col lg:flex-row items-center sm:mt-10 justify-center lg:justify-between p-8 lg:p-16 space-y-8 lg:space-y-0 lg:space-x-12 md:max-h-screen">
        
     <div className='flex flex-col justify-center items-center sm:text-center w-full rounded-md px-2 py-2  border-purple-600 mb-8 mt-8 transition-all duration-1000 ease-in-out hover:scale-105'>
-      <span className="text-4xl md:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600  via-pink-500 to-purple-500 mb-7 transition-shadow duration-300 ease-in hover:shadow-[0_0_8px_8px_rgba(182,27,79)] rounded-full border-4 border-blue-500 animate-superman md:p-6 p-3  mt-5">ABOUT ERUM
+      <span className="text-2xl sm:text-4xl md:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600  via-pink-500 to-purple-500 mb-7 transition-shadow duration-300 ease-in hover:shadow-[0_0_8px_8px_rgba(182,27,79)] rounded-full border-4 border-blue-500 animate-superman md:p-6 p-3 mt-10 sm:mt-16">ABOUT ERUM
 
       </span>
       <p className="lg:text-2xl text-base sm:text-xl m-5 text-black ">
@@ -34,7 +33,7 @@ As a passionate learner, I thrive on the excitement of discovery and innovation.
         />
       </div>
     </div>
-    </>
+    </section>
   );
 };
 
