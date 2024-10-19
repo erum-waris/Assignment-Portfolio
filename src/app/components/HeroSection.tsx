@@ -18,7 +18,7 @@ function HeroSection() {
         <h2 className=" text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-600 to-purple-500 font-semibold mt-6 md:mt-5 text-2xl md:text-4xl font-serif hover:animate-bounce">Aspiring Software Engineer & As a Next js enthusiast I focus on fast scalable and efficient websites</h2>
 
         <Button text="Hire Me" href="mailto:erumwaris93@gmail.com" />
-        <Button text="Hire Me" href="mailto:erumwaris93@gmail.com" />
+        <Button text="Contact Me" href="#contact" />
         </div>
     </div>
   )
