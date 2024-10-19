@@ -10,8 +10,8 @@
       url,
     }) => {
       return (
-        <div className="transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(166,87,197)] hover:scale-105 bg-transparent rounded-sm overflow-hidden flex flex-col justify-between items-center border-2 border-purple-400 text-center">
-          <div className="relative mt-6 w-60 h-40">
+        <div className="transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(123,77,77)] hover:scale-105 bg-transparent rounded-sm overflow-hidden flex flex-col justify-between items-center border-2 border-purple-400 text-center">
+          <div className="relative mt-6 w-4/5 h-40">
           <Image
             src={image} 
             alt={title}

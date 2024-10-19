@@ -1,30 +1,50 @@
-
-import Link from "next/link";
-import React from 'react';
-
-const Footer = () => {
+import React from "react";
+import { FaGithub } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaInstagramSquare } from "react-icons/fa";
+function Footer() {
   return (
-    <footer className=" bg-gray-500 text-white p-2  text-center text-xl relative bottom-0 w-full h-30 border-0 ">
-     <div> <p className="mb-3">&copy; 2024 ERUM WARIS All rights reserved</p> 
-     </div>  
-     <ul className='flex sm:flex gap-1 md:gap-5 justify-center items-center '>
-   <li><Link href="/">Home</Link></li> &nbsp;|
-        <li><Link href="#Projects">Projects</Link></li> &nbsp;|
-        <li><Link href="#about">About</Link></li> &nbsp;|
-        <li><Link href="#contact">Contact</Link></li> &nbsp;|
-        <li><Link href="#skills">Skills</Link></li>
-   </ul>
-     
-    </footer>
+    <div className="  relative bottom-0 w-full bg-blue-800 ">
+      <p className="text-white md:text-xl text-base text-center">
+        �� &copy; 2024 ERUM WARIS All rights reserved.
+      </p>
+      <div className="flex justify-center ">
+        <div className="md:w-14 md:h-14 h-10 w-10  bg-slate-300 text-2xl md:text-4xl border-2 border-white rounded-full m-3 p-3 flex justify-center items-center ">
+          <a href="https://github.com/erum-waris" target="_blank">
+            <FaGithub />
+          </a>
+        </div>
+        <div className="md:w-14 md:h-14 h-10 w-10 bg-slate-300  text-2xl md:text-4xl  border-2 border-white rounded-full m-3 p-3 flex justify-center items-center ">
+          <a
+            href="https://www.facebook.com/profile.php?id=100086766218877&mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <FaFacebook />
+          </a>
+        </div>
+        <div className="md:w-14 md:h-14 h-10 w-10  bg-slate-300 text-2xl md:text-4xl border-2 border-white rounded-full m-3 p-3 flex justify-center items-center ">
+          <a
+            href="https://www.linkedin.com/in/erum-waris-16008b282/"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
+        <div className="md:w-14 md:h-14 h-10 w-10 bg-slate-300  text-2xl md:text-4xl border-2 border-white rounded-full m-3 p-3 flex justify-center items-center ">
+          <a href="mailto:erumwaris93@gmail.com" target="_blank">
+            <MdEmail />
+          </a>
+        </div>
+        <div className="md:w-14 md:h-14 h-10 w-10 bg-slate-300  text-2xl md:text-4xl border-2 border-white rounded-full m-3 p-3 flex justify-center items-center ">
+          <a href="https://www.instagram.com/erumwaris93/" target="_blank">
+            <FaInstagramSquare />
+          </a>
+        </div>
+      </div>
+    </div>
   );
-};
+}
 
 export default Footer;
-
-{/* <ul className='flex gap-5'>
-   <li><Link href="/">Home</Link></li> &nbsp;|
-        <li><Link href="/projects">Projects</Link></li> &nbsp;|
-        <li><Link href="/about">About</Link></li> &nbsp;|
-        <li><Link href="/contact">Contact</Link></li> &nbsp;|
-        <li><Link href="/skills">Skills</Link></li>
-   </ul> */}
